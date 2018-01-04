@@ -1,0 +1,348 @@
+﻿Log file open, 01/04/18 09:47:25
+LogInit:Display: Running engine for game: RPGTutorial13072017GIT
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1056064737) SRandInit(1056064737).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.314207
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.04-11.47.27:170][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-11.47.27:170][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.04-11.47.27:225][  0]LogInit: Computer: DESKTOP-RTAKPRV
+[2018.01.04-11.47.27:225][  0]LogInit: User: dougl
+[2018.01.04-11.47.27:225][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.01.04-11.47.27:225][  0]LogInit: High frequency timer resolution =2.143473 MHz
+[2018.01.04-11.47.27:225][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.01.04-11.47.27:225][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.04-11.47.27:225][  0]LogMemory: Process Physical Memory: 272.70 MB used, 272.70 MB peak
+[2018.01.04-11.47.27:225][  0]LogMemory: Process Virtual Memory: 258.70 MB used, 258.70 MB peak
+[2018.01.04-11.47.27:225][  0]LogMemory: Physical Memory: 3869.68 MB used,  4224.99 MB free, 8094.68 MB total
+[2018.01.04-11.47.27:225][  0]LogMemory: Virtual Memory: 653.78 MB used,  4224.99 MB free, 134217728.00 MB total
+[2018.01.04-11.47.28:014][  0]LogInit: Overriding language with editor culture configuration option (en).
+[2018.01.04-11.47.28:014][  0]LogInit: Overriding locale with editor culture configuration option (en).
+[2018.01.04-11.47.31:818][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.04-11.47.31:831][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.01.04-11.47.31:831][  0]LogD3D11RHI:       128/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.01.04-11.47.31:837][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.04-11.47.31:837][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.04-11.47.31:837][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.04-11.47.31:847][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.04-11.47.31:847][  0]LogD3D11RHI:     GPU DeviceId: 0x1616 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.04-11.47.31:847][  0]LogWindows: EnumDisplayDevices:
+[2018.01.04-11.47.31:847][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.01.04-11.47.31:848][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.01.04-11.47.31:848][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.01.04-11.47.31:849][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.04-11.47.31:849][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 5500
+[2018.01.04-11.47.31:849][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.04-11.47.31:849][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.04-11.47.31:849][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.04-11.47.31:860][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.04-11.47.31:869][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2018.01.04-11.47.31:870][  0]LogShaderCompilers: Guid format shader working directory is -62 characters bigger than the processId version (../../../../../../Users/dougl/Desktop/Pastas Compartilhadas/UE4TREINANDO/treinandoUE4/RPGTutorial13072017GIT/Intermediate/Shaders/WorkingDirectory/9680/).
+[2018.01.04-11.47.31:870][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dougl/AppData/Local/Temp/UnrealShaderWorkingDir/0BB1C4744FEB63D999EAEA9E2487062C/'.
+[2018.01.04-11.47.31:870][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.04-11.47.37:426][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.04-11.47.37:642][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.04-11.47.37:854][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.04-11.47.38:054][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.04-11.47.38:319][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.04-11.47.38:547][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.04-11.47.38:783][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.04-11.47.38:980][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.04-11.47.39:139][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.04-11.47.39:339][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.04-11.47.39:533][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.04-11.47.39:675][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.04-11.47.39:834][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.04-11.47.39:990][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.04-11.47.40:152][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.04-11.47.40:607][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.04-11.47.40:607][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.04-11.47.40:733][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.04-11.47.41:089][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.04-11.47.41:174][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.04-11.47.41:338][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.04-11.47.41:496][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.04-11.47.41:824][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.04-11.47.42:017][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.04-11.47.42:017][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.04-11.47.44:298][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.04-11.47.45:538][  0]LogDerivedDataCache: Loaded boot cache 1.24s 90MB C:/Users/dougl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-11.47.45:538][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/dougl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.04-11.47.45:538][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dougl/Desktop/Pastas Compartilhadas/UE4TREINANDO/treinandoUE4/RPGTutorial13072017GIT/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.04-11.47.45:538][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.04-11.47.45:538][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dougl/Desktop/Pastas Compartilhadas/UE4TREINANDO/treinandoUE4/RPGTutorial13072017GIT/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.04-11.47.45:538][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.04-11.47.45:582][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.04-11.47.45:595][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dougl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.04-11.47.45:616][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.04-11.47.45:617][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.04-11.47.45:648][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-11.47.45:648][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.04-11.47.56:128][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.04-11.47.56:317][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.04-11.47.56:774][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.04-11.47.56:962][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.04-11.47.57:425][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.04-11.47.57:425][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.04-11.47.57:425][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.04-11.47.59:058][  0]LogNetVersion: RPGTutorial13072017GIT , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2410067298)
+[2018.01.04-11.47.59:212][  0]LogAssetRegistry: FAssetRegistry took 0.0468 seconds to start up
+[2018.01.04-11.47.59:333][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.062522 seconds
+[2018.01.04-11.47.59:344][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.04-11.47.59:344][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.04-11.47.59:344][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.04-11.47.59:511][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.04-11.48.30:839][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.04-11.48.30:944][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.04-11.48.33:100][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.04-11.48.34:102][  0]SourceControl: Info Source control is disabled
+[2018.01.04-11.48.34:341][  0]SourceControl: Info Source control is disabled
+[2018.01.04-11.48.34:487][  0]SourceControl: Info Source control is disabled
+[2018.01.04-11.48.34:641][  0]SourceControl: Info Source control is disabled
+[2018.01.04-11.48.36:888][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.04-11.48.38:569][  0]LogEngine: Initializing Engine...
+[2018.01.04-11.48.38:571][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.04-11.48.38:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.04-11.48.38:916][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.04-11.48.39:231][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.04-11.48.39:257][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-11.48.39:530][  0]LogInit: FAudioDevice initialized.
+[2018.01.04-11.48.39:602][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/dougl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.04-11.48.39:613][  0]LogInit: Texture streaming: Enabled
+[2018.01.04-11.48.39:886][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.04-11.48.40:555][  0]LogInit: Transaction tracking system initialized
+[2018.01.04-11.48.41:733][  0]BlueprintLog: New page: Editor Load
+[2018.01.04-11.48.44:842][  0]LocalizationService: Info Localization service is disabled
+[2018.01.04-11.48.47:295][  0]LogConsoleResponse:Display: 
+[2018.01.04-11.48.48:279][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.04-11.48.48:279][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.04-11.48.48:761][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dougl/Desktop/Pastas Compartilhadas/UE4TREINANDO/treinandoUE4/RPGTutorial13072017GIT/Content/' took 0.14s
+[2018.01.04-11.48.52:108][  0]SourceControl: Info Source control is disabled
+[2018.01.04-11.48.52:123][  0]LightingResults: New page: Lighting Build
+[2018.01.04-11.48.52:216][  0]MapCheck: New page: Map Check
+[2018.01.04-11.48.52:216][  0]LightingResults: New page: Lighting Build
+[2018.01.04-11.48.53:819][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.48.53:819][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.48.54:345][  0]LogPackageName: SearchForPackageOnDisk took   0.525s, but failed to resolve FX_Meshes.
+[2018.01.04-11.48.54:345][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.01.04-11.48.57:924][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.04-11.48.57:967][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.04-11.48.58:014][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.04-11.48.58:199][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 185.337ms to complete.
+[2018.01.04-11.48.58:199][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.091
+[2018.01.04-11.48.58:544][  0]LogCollectionManager: Loaded 0 collections in 0.003772 seconds
+[2018.01.04-11.48.58:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dougl/Desktop/Pastas Compartilhadas/UE4TREINANDO/treinandoUE4/RPGTutorial13072017GIT/Saved/Collections/' took 0.01s
+[2018.01.04-11.48.58:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dougl/Desktop/Pastas Compartilhadas/UE4TREINANDO/treinandoUE4/RPGTutorial13072017GIT/Content/Developers/dougl/Collections/' took 0.01s
+[2018.01.04-11.48.58:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dougl/Desktop/Pastas Compartilhadas/UE4TREINANDO/treinandoUE4/RPGTutorial13072017GIT/Content/Collections/' took 0.01s
+[2018.01.04-11.48.58:680][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.04-11.48.58:693][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2329 classes and 491 folders.
+[2018.01.04-11.48.58:843][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.04-11.49.00:095][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.01.04-11.49.00:242][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.04-11.49.00:345][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.04-11.49.08:203][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.04-11.49.08:731][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPGTutorial13072017GIT
+[2018.01.04-11.49.08:731][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.04-11.49.08:731][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.01.04-11.49.08:731][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.04-11.49.08:731][  0]LogTemp: BranchPath = DESKTOP-RTAKPRV/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-RTAKPRV/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.01.04-11.49.08:731][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\dougl\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.04-11.49.08:731][  0]LogSlate: Took 0.095844 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.04-11.49.08:884][  0]LogSlate: Took 0.150216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.04-11.49.08:913][  0]LogSlate: Took 0.021750 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.04-11.49.09:709][  0]LogRenderer: Reallocating scene render targets to support 676x328 NumSamples 1 (Frame:1).
+[2018.01.04-11.49.10:586][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.04-11.49.10:767][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.04-11.49.10:768][  0]LogLoad: (Engine Initialization) Total time: 120.71 seconds
+[2018.01.04-11.49.10:768][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.51 seconds
+[2018.01.04-11.49.10:768][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.04-11.49.10:768][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.04-11.49.11:118][  0]LogOcInput: OculusInput pre-init called
+[2018.01.04-11.49.11:118][  0]LogHMD: Starting GearVRController plugin
+[2018.01.04-11.49.11:138][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.01.04-11.49.11:225][  0]LogSlate: Took 0.013359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-11.49.11:314][  0]LogSlate: Took 0.000429 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-11.49.12:801][  5]LogAssetRegistry: Asset discovery search completed in 73.6111 seconds
+[2018.01.04-11.49.12:810][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.04-11.49.12:810][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.01.04-11.50.00:731][686]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.04-11.50.11:569][686]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.11:569][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.11:986][686]LogPackageName: SearchForPackageOnDisk took   0.417s, but failed to resolve JW_FlameDungeon.
+[2018.01.04-11.50.11:986][686]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2018.01.04-11.50.12:081][686]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.12:081][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.12:507][686]LogPackageName: SearchForPackageOnDisk took   0.425s, but failed to resolve JW_FlameDungeon.
+[2018.01.04-11.50.12:507][686]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2018.01.04-11.50.16:757][686]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.16:757][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.17:175][686]LogPackageName: SearchForPackageOnDisk took   0.418s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2018.01.04-11.50.17:175][686]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2018.01.04-11.50.17:906][686]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.17:906][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.18:313][686]LogPackageName: SearchForPackageOnDisk took   0.407s, but failed to resolve JW_Ice_Mountain.
+[2018.01.04-11.50.18:313][686]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.04-11.50.18:755][686]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.18:755][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.19:166][686]LogPackageName: SearchForPackageOnDisk took   0.411s, but failed to resolve FX_Meshes.
+[2018.01.04-11.50.19:167][686]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.01.04-11.50.19:216][686]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.19:216][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.19:620][686]LogPackageName: SearchForPackageOnDisk took   0.404s, but failed to resolve FX_Meshes.
+[2018.01.04-11.50.19:620][686]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.01.04-11.50.19:817][686]LogPackageName:Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.19:817][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.20:222][686]LogPackageName: SearchForPackageOnDisk took   0.404s, but failed to resolve 'FX_Ambient.
+[2018.01.04-11.50.20:222][686]LogPackageName:Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2018.01.04-11.50.20:328][686]LogPackageName:Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.20:328][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.20:737][686]LogPackageName: SearchForPackageOnDisk took   0.408s, but failed to resolve CastleEffects.
+[2018.01.04-11.50.20:737][686]LogPackageName:Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2018.01.04-11.50.21:848][686]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.21:848][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.22:255][686]LogPackageName: SearchForPackageOnDisk took   0.407s, but failed to resolve StaticMesh'FX_Meshes.
+[2018.01.04-11.50.22:255][686]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2018.01.04-11.50.22:277][686]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.22:277][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.22:684][686]LogPackageName: SearchForPackageOnDisk took   0.406s to resolve m_FogSheet_02.
+[2018.01.04-11.50.23:197][686]LogPackageName:Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.23:197][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.23:607][686]LogPackageName: SearchForPackageOnDisk took   0.410s, but failed to resolve FX_Test_LAN.
+[2018.01.04-11.50.23:607][686]LogPackageName:Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2018.01.04-11.50.24:949][686]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.24:949][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.25:364][686]LogPackageName: SearchForPackageOnDisk took   0.414s to resolve m_FogSheet_02.
+[2018.01.04-11.50.25:401][686]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.25:401][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.25:810][686]LogPackageName: SearchForPackageOnDisk took   0.409s to resolve m_FogSheet_02.
+[2018.01.04-11.50.25:812][686]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.25:812][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.26:216][686]LogPackageName: SearchForPackageOnDisk took   0.405s to resolve m_FogSheet_02.
+[2018.01.04-11.50.46:552][686]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.46:553][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.46:968][686]LogPackageName: SearchForPackageOnDisk took   0.415s, but failed to resolve JW_Ice_Mountain.
+[2018.01.04-11.50.46:968][686]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.04-11.50.47:040][686]LogPackageName:Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.47:040][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.47:432][686]LogPackageName: SearchForPackageOnDisk took   0.393s to resolve S_Survival_CA_Chicken_02.
+[2018.01.04-11.50.48:144][686]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.48:144][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.48:534][686]LogPackageName: SearchForPackageOnDisk took   0.389s, but failed to resolve JW_Ice_Mountain.
+[2018.01.04-11.50.48:534][686]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.04-11.50.48:585][686]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.04-11.50.48:585][686]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.04-11.50.48:979][686]LogPackageName: SearchForPackageOnDisk took   0.394s, but failed to resolve Env_ALL_Artifacts.
+[2018.01.04-11.50.48:979][686]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2018.01.04-11.51.10:601][686]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.04-11.51.10:627][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.04-11.51.10:793][686]PIE: New page: PIE session: ThirdPersonExampleMap (Jan 4, 2018, 7:51:10 AM)
+[2018.01.04-11.51.10:801][686]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.01.04-11.51.11:014][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.212017s)
+[2018.01.04-11.51.11:015][686]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.01.04-11.51.11:015][686]LogPlayLevel: PIE: World Init took: (0.001172s)
+[2018.01.04-11.51.11:031][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.229430s)
+[2018.01.04-11.51.11:087][686]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.04-11.51.11:109][686]LogInit: FAudioDevice initialized.
+[2018.01.04-11.51.11:314][686]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.04-11.51.11:469][686]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2018.01.04-09.51.11
+[2018.01.04-11.51.11:491][686]LogWorld: Bringing up level for play took: 0.045140
+[2018.01.04-11.51.11:912][686]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.01.04-11.51.12:152][686]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.046
+[2018.01.04-11.51.12:173][686]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.04-11.51.12:480][686]LogRenderer: Reallocating scene render targets to support 676x380 NumSamples 1 (Frame:1).
+[2018.01.04-11.52.10:797][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.04-11.52.10:943][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.01.04-11.56.30:427][613]LogSlate: Took 0.012804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.04-11.56.31:304][613]LogSlate: Took 0.036031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.04-11.56.32:722][613]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 112 classes and 0 folders.
+[2018.01.04-11.56.35:991][613]LogSlate: Took 0.025072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.04-11.56.37:192][614]LogSlate: Took 0.008934 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.04-11.58.20:354][391]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.01.04-11.58.21:243][391]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.01.04-11.58.23:075][391]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.01.04-11.58.24:444][391]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2018.01.04-11.58.24:812][392]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.01.04-11.59.51:855][838]LogUObjectBase:Warning: Object is not registered
+[2018.01.04-11.59.53:069][838]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.173 s
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: === Handled ensure: ===
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: 
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: Stack: 
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F20DE256
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F1E8B862
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F1EA1E26
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000EB6F7556
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000ECB8D27B
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000EA8624AA
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000EA7072CC
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000EA70A6D9
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000EA828035
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000F325DB57
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000F3264B61
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000F34848D3
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000F32BF604
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000F32977FC
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000F328814C
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F20D1550
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F20BB771
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F20D337B
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F20B7AC2
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: USER32.dll!0x000000002E28B85D
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: USER32.dll!0x000000002E28B1EF
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000F20D3C86
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor.exe!0x00000000BAE6DB44
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor.exe!0x00000000BAE5F0B0
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor.exe!0x00000000BAE5F12A
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor.exe!0x00000000BAE70CF9
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: UE4Editor.exe!0x00000000BAE725F7
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: KERNEL32.DLL!0x000000002BE31FE4
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: ntdll.dll!0x000000002E84EF91
+[2018.01.04-11.59.53:069][838]LogOutputDevice:Error: 
+[2018.01.04-11.59.53:075][838]LogStats:                SubmitErrorReport -  0.000 s
